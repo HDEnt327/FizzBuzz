@@ -14,4 +14,8 @@ public class Multiples {
         }
         return total;
     }
+
+    static int multiples(){
+        return multiples(1000, 3, 5);
+    }
 }
